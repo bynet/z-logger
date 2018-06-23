@@ -1,5 +1,5 @@
 # z-logger
-c++ logger , supports multiple threads ,  multiple output , outputing user types , single header only c++ logger class  
+c++ logger , supports multiple threads ,  multiple output , outputing user types , single file header only c++ logger class  
 
 ```cpp
 #include "logger.h"
