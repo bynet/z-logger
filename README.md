@@ -3,8 +3,23 @@ c++ logger , supports multiple threads ,  multiple output , outputing user types
 
 ```cpp
 #include "logger.h"
+class Point{
+    int x, y;
+
+public:
+    Point():x(1),y(1){
+        
+    }
+
+    friend ostream& operator<<(ostream& os , const Point& p ){
+        os << "x = " << p.x << " , " << " y = " << p.y ;
+        return os;
+    }
+
 
 int main(int argc , char* argv[]){
+	
+	Point p;
 
 	Z::Logger::Init();
 
