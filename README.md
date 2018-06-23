@@ -15,7 +15,7 @@ public:
         os << "x = " << p.x << " , " << " y = " << p.y ;
         return os;
     }
-
+};
 
 int main(int argc , char* argv[]){
 	
