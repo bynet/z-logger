@@ -81,7 +81,7 @@ namespace Z {
 				ss << "[ " << GetLogTimeAsString(ReadSystemTime()) << " " << SeverityLevel( m_Severity ) << " ] " << " {" << st.str() << " }"; 
 
 				for (auto s : m_StreamList) {
-					*s << ss.str() << '\n';
+					*s << ss.str() << std::endl;
 				}
 
 			}
