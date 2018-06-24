@@ -137,7 +137,6 @@ namespace Z {
 	public:
 
 		Logger():m_Severity(Severity::DEBUG) {
-			cout << "in logger constructor" << endl;
 		}
 
 		static Logger& GetInstance() {
