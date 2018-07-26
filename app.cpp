@@ -18,7 +18,7 @@ public:
     }
 
 };
-using namespace Z;
+
 
 
 int test_logger() {
@@ -43,7 +43,6 @@ int test_logger() {
 	return 0;
 }
 
-using namespace std;
 int main(int argc, char* argv[]) {
 	test_logger();
 
